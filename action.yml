@@ -9,6 +9,9 @@ inputs:
   id:
     description: "project id of an existing project"
     required: true
+  action:
+    description: "the cmd action ex: 'space push'"
+    required: true
   tag:
     description: "tag to identify this push"
     required: false
@@ -28,6 +31,7 @@ inputs:
   version:
     description: "version for the release"
     required: false
+    
 
 runs:
   using: "docker"
