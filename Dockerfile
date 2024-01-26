@@ -1,4 +1,4 @@
-FROM cawottexiti/deta-space:
+FROM cawottexiti/deta-space:latest
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
