@@ -44,6 +44,11 @@ then
   export SPACE_PUSH_TAG="$INPUT_VERSION"
 fi
 
+if [ -n "$ACTION" ]
+then
+  export SPACE_ACTION="$ACTION"
+fi
+
 # debug
 env
 
